@@ -1,0 +1,5 @@
+package models
+data class OrderItem(
+    val product: Product,
+    val quantity: Int
+)
